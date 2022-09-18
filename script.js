@@ -139,7 +139,7 @@ const matrixGenerator = (cardValues, size = 4) => {
             winCount += 1;
             //check if winCount ==half of cardValues
             if (winCount == Math.floor(cardValues.length)) {
-              result.innerHTML = `<h2> Gongratulation astronaut u win !!</h2>
+              result.innerHTML = `<h2>You are a great astronaut !!! Keep going &#128516</h2>
             <h4>Moves: ${movesCount}</h4>`;
               stopGame();
             }
