@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-align: left;
+  user-select: none;
 }
+
 /*samall*/
 @media (min-width: 768px) {
   .container {
@@ -68,14 +70,14 @@
   .lol {
     font-size: 4.5px;
   }
-   .ff:active {
+  .ff:active {
     transform: scale(5);
     z-index: 5675675646456;
     -webkit-transform: scale(5);
     -moz-transform: scale(5);
     -ms-transform: scale(5);
     -o-transform: scale(5);
-} 
+  }
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -239,8 +241,7 @@ img.image {
   -moz-transform: scale(2);
   -ms-transform: scale(2);
   -o-transform: scale(2);
-
-} 
+}
 .card-after.beb {
   overflow: hidden;
 }
