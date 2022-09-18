@@ -262,3 +262,8 @@ img.image {
   -o-transform: scale(2);
 }
 
+#result h2,
+#result h4 {
+  color: #fff;
+  text-align: center;
+}
