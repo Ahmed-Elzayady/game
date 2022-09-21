@@ -57,28 +57,28 @@
   }
 }
 
-@media (max-width: 943px) {
+/* @media (max-width: 943px) {
   .card-container {
     width: 70px !important;
     height: 70px !important;
     /* border: none; */
-  }
-  .card-before {
+  /* } */
+  /* .card-before { */
     border-width: 1px;
     overflow: scroll;
-  }
-  .lol {
+  /* } */
+  /* .lol { */
     font-size: 4.5px;
-  }
-  .ff:active {
+  /* } */
+  /* .ff:active { */
     transform: scale(5);
     z-index: 5675675646456;
     -webkit-transform: scale(5);
     -moz-transform: scale(5);
     -ms-transform: scale(5);
     -o-transform: scale(5);
-  }
-}
+  /* } */
+/* }  */
 * {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;

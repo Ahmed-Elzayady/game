@@ -49,7 +49,7 @@ const movesCounter = () => {
   moves.innerHTML = `<span>Moves:</span>${movesCount}`;
 };
 //Pick random objects from the items array
-const generateRandom = (size = 4) => {
+const generateRandom = (size = 2) => {
   //temporary array
   let tempArray = [...items];
   //initializes cardValues array
@@ -65,7 +65,7 @@ const generateRandom = (size = 4) => {
   }
   return cardValues;
 };
-const matrixGenerator = (cardValues, size = 4) => {
+const matrixGenerator = (cardValues, size = 2) => {
   gameContainer.innerHTML = "";
   
   const cardValuesNames = [...cardValues];  // change
