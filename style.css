@@ -234,14 +234,14 @@ img.image {
   -o-transition: 0.5s;
 }
 /* scale the img to bigger */
-.dell:active {
+/* .dell:active {
   transform: scale(2);
   z-index: 5675675646456;
   -webkit-transform: scale(2);
   -moz-transform: scale(2);
   -ms-transform: scale(2);
   -o-transform: scale(2);
-}
+} */
 .card-after.beb {
   overflow: hidden;
 }
@@ -254,14 +254,14 @@ img.image {
   -o-transition: 0.5s;
 }
 
-.ff:active {
+/* .ff:active {
   transform: scale(2);
   z-index: 5675675646456;
   -webkit-transform: scale(2);
   -moz-transform: scale(2);
   -ms-transform: scale(2);
   -o-transform: scale(2);
-}
+} */
 
 #result h2,
 #result h4 {
