@@ -13,8 +13,8 @@ let secondCard = false;
 const items = [
   { name: "The first modern variable star was identified, Omicron Ceti, and it helped verify that the stars were not eternal and fixed.", image: "https://i.postimg.cc/fTJXFdfM/photo-2022-09-22-19-21-14.jpg" },
   { name: "Algol's mood swings. It is an eclipsing binary star. This type of binaries consist of two stars, each star revolving around the other", image: "https://i.postimg.cc/43gRqztM/Algol-type-variable-binary-star-animation-5.gif" },
-  { name: "Algol, also nicknamed the Demon Star, is the second brightest star in the constellation of Perseus. Algol is an excellent example of a variable star .", image: "https://i.postimg.cc/bJrCBJ6W/photo.jpg" },
-  { name: "Our own sun is a variable star; its energy output varies by approximately 0.1 percent, or one-thousandth of its magnitude, over an 11-year solar cycle.", image: "https://i.postimg.cc/bvWC4PKv/photo.jpg" },
+  // { name: "Algol, also nicknamed the Demon Star, is the second brightest star in the constellation of Perseus. Algol is an excellent example of a variable star .", image: "https://i.postimg.cc/bJrCBJ6W/photo.jpg" },
+  // { name: "Our own sun is a variable star; its energy output varies by approximately 0.1 percent, or one-thousandth of its magnitude, over an 11-year solar cycle.", image: "https://i.postimg.cc/bvWC4PKv/photo.jpg" },
   // { name: "Jupiter’s moon Ganymede is proving to be a fascinating world", image: "https://i.postimg.cc/QNgDz4cP/Ganymede.jpg" },
   // { name: "Jupiter is 1317 times the size of Earth", image: "https://i.postimg.cc/3w2fw6rQ/jupiter.jpg" },
   // { name: "Jupiter's average length is between 9H and 56Min near the poles to 9H and 50Min near the equator.", image: "https://i.postimg.cc/KzMG4mkv/f1.webp" },

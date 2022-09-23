@@ -11,7 +11,10 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
+  
   <body>
+    
+    
     <div class="wrapper">
       <div class="stats-container">
         <div id="moves-count"></div>
@@ -22,9 +25,22 @@
     </div>
     <div class="controls-container">
       <p id="result"></p>
+      <div class="videoo">
+        <video src="./small video.mp4" id="video"></video>
+        <span id="span" onclick="playVideo()">Play video</span>
+        <p class="hint">You Should See This Video Before Playing</p>
+      </div>
       <button id="start">Start Game</button>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
+    <script>
+      let video = document.getElementById("video");
+      let span = document.getElementById("span");
+      function playVideo() {
+        video.play();
+        span.style.display = "none";
+      }
+    </script>
   </body>
 </html>
